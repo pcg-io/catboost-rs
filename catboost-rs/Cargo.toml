@@ -11,4 +11,4 @@ license = "MIT/Apache-2.0"
 
 
 [dependencies]
-catboost-sys = "0.1.6"
+catboost-sys = { path = "../catboost-sys" }
