@@ -10,6 +10,6 @@ Internal unsafe Rust bindings for catboostlib C apis using bindgen
 license = "MIT/Apache-2.0"
 
 [build-dependencies]
-bindgen = "~0.59"
+bindgen = { version="~0.59", default-features=false, features=["static"] }
 ureq = "2.5.0"
 anyhow = "1.0.64"
